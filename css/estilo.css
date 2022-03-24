@@ -1,5 +1,5 @@
 body{
-    background-color: #EE82EE;
+    background-color: #B22222;
 }
 
 .container{
@@ -11,12 +11,26 @@ body{
 
 h1{
     text-align: center;
+    color: #fff;
+    font-weight: bolder;
 }
 
-img{
-    width: 30%;
+.img_corpo{
+    width:40%;
 }
 
 figure{
     text-align: center;
+}
+
+.img_topo{
+    width: 100%;
+}
+
+p{
+   font-size: 1.5em; 
+   color:#fff;
+   font-weight: bold;
+   text-indent: 50px;
+   text-align: justify;
 }
