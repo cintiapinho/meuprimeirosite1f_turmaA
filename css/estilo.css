@@ -1,5 +1,9 @@
-body{
+.fundo_vermelho{
     background-color: #B22222;
+}
+
+.fundo_rosa{
+    background-color: blueviolet;
 }
 
 .container{
@@ -28,9 +32,13 @@ figure{
 }
 
 p{
-   font-size: 1.5em; 
+   font-size: 1.3em; 
    color:#fff;
    font-weight: bold;
    text-indent: 50px;
    text-align: justify;
+}
+
+.paragrafos_musica > p{
+    font-size: 1em;
 }
