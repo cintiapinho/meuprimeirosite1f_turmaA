@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .fundo_vermelho{
     background-color: #B22222;
 }
@@ -41,4 +44,8 @@ p{
 
 .paragrafos_musica > p{
     font-size: 1em;
+}
+
+footer{
+    background-color: black;
 }
