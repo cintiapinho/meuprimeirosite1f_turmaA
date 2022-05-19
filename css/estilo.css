@@ -1,19 +1,45 @@
 html{
     scroll-behavior: smooth;
 }
+
+.menu{
+    background-color: rgba(22, 10, 6, 0.3);
+    padding: 2%;
+    
+}
+
+.itens_menu{
+    text-align: center;
+}
+
+.itens_menu li{
+
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 .fundo_vermelho{
     background-color: #B22222;
 }
 
 .fundo_rosa{
-    background-color: blueviolet;
+    background-color: #B22222;
+}
+
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .container{
-
     width: 80%;
-    margin:auto;
-   
+    margin:auto;   
 }
 
 h1{
@@ -28,6 +54,8 @@ h1{
 
 figure{
     text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
 .img_topo{
@@ -40,6 +68,7 @@ p{
    font-weight: bold;
    text-indent: 50px;
    text-align: justify;
+   line-height: 1.5;
 }
 
 .paragrafos_musica > p{
@@ -47,5 +76,11 @@ p{
 }
 
 footer{
-    background-color: black;
+    background-color: rgba(22, 10, 6, 0.3);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.center{
+    text-align: center;
 }
