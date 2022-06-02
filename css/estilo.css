@@ -50,12 +50,13 @@ h1{
 
 .img_corpo{
     width:40%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
 figure{
     text-align: center;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    
 }
 
 .img_topo{
@@ -68,8 +69,9 @@ p{
    font-weight: bold;
    text-indent: 50px;
    text-align: justify;
-   line-height: 1.5;
+   line-height: 1.5;        
 }
+
 
 .paragrafos_musica > p{
     font-size: 1em;
@@ -79,6 +81,7 @@ footer{
     background-color: rgba(22, 10, 6, 0.3);
     padding-top: 2%;
     padding-bottom: 2%;
+    margin-top: 2%;
 }
 
 .center{
@@ -86,8 +89,9 @@ footer{
 }
 
 .itens_menu a:link, .itens_menu a:visited  {
-    color: #fff;
+    color: #FFA07A;
     text-decoration: none;
+    font-weight: bolder;
   }
 
 .itens_menu a:hover{
@@ -99,9 +103,39 @@ footer{
     color: black;
 }
 
-#mais{
-    background-color: #FA8072;
+#mais a:visited, #mais a:link{
+    color: #FFA07A;
 }
+
+#mais a:hover{
+    color: #4F4F4F;
+}
+
+.botao{
+    width: 100px;
+    height: 40px;   
+    background-color: rgba(128,128,128, 0.5);
+    margin: auto; 
+    padding: 1.5%;
+    border-radius: 25px;
+}
+
+.botao p{
+    text-indent: 0;
+    text-align: center;
+}
+    
+
+.botao a:link, .botao a:visited{
+    color:#FFA07A;
+
+}
+
+.botao:hover{
+    background-color: #FFFF00;
+}
+
+
 
 
 
