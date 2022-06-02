@@ -84,3 +84,24 @@ footer{
 .center{
     text-align: center;
 }
+
+.itens_menu a:link, .itens_menu a:visited  {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.itens_menu a:hover{
+    background-color: rgba(128,128,128, 0.3);
+    padding: 0.8%;
+}
+
+.itens_menu a:active{
+    color: black;
+}
+
+#mais{
+    background-color: #FA8072;
+}
+
+
+
