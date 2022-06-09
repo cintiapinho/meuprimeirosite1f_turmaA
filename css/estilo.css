@@ -85,6 +85,10 @@ footer{
     margin-top: 2%;
 }
 
+footer p{
+    font-size: 1em;;
+}
+
 .center{
     text-align: center;
 }
@@ -139,7 +143,13 @@ footer{
 .direita{
     float: right;
     margin-left: 2%;
-    width: 30%;
+    width: 40%;
+}
+
+.esquerda{
+    float:left;
+    margin-right: 2%;
+    width: 50%;
 }
 
 
