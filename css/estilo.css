@@ -161,4 +161,13 @@ footer p{
     width: 50%;
 }
 
+table{
+    width: 100%;
+}
+
+table, th, td {
+    border: 10px groove #FF6347;
+    padding: 1.5%;
+  }
+
 
