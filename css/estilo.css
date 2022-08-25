@@ -12,7 +12,14 @@ html{
     background-color: rgba(22, 10, 6, 0.3);
     padding: 2%;
     font-family: 'Gloria Hallelujah', cursive;
+    position: fixed;
+    width: 100%;
     
+}
+
+.fundo_header{
+    width: 100%;
+    height: 249px;
 }
 
 .itens_menu{
@@ -49,6 +56,7 @@ section{
 .container{
     width: 80%;
     margin:auto;   
+    position: relative;
 }
 
 h1{

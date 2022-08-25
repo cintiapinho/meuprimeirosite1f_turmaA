@@ -36,13 +36,64 @@
 
         }
 
+        .topodireita{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: red;
+
+        }
+
+        .baixoesquerda{
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: yellow;
+
+        }
+
+        
+        .baixodireita{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color:aqua;
+
+        }
+
+        .centro{
+            position: absolute;
+            width: 20%;
+            background-color:palevioletred;
+            top: 610px;
+            right: 40%;
+
+
+        }
+
+        .fixa{
+
+            position: fixed;
+            top: 0;
+            z-index: 1030;
+            right: 0;
+            left: 0;
+        }
+
+      
 
     </style>
 </head>
 <body>
     
     <header>
-        <h1 style="background-color:brown;color: cyan;"> Teste CSS interno e Inline </h1>
+        <h1 class="fixa" style="background-color:brown;color: cyan;"> Teste CSS interno e Inline </h1>
         <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae esse atque autem rem aliquam. Iure laboriosam beatae in quidem possimus voluptatem, explicabo cupiditate aut minima natus quibusdam impedit quasi magni!</p>
         <p style="background-color: aquamarine; font-style: italic;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, corporis molestias itaque, ut perferendis tempora voluptate quibusdam beatae ea voluptas omnis rem commodi laboriosam odit nostrum architecto, quaerat consectetur corrupti!</p>
     </header>
@@ -50,10 +101,10 @@
         <h1>Testando....</h1>
         <div class="container">
             <div class="topoesquerda">TopoEsq</div>
-            <div class="topodireita"></div>
-            <div class="baixoesquerda"></div>
-            <div class="baixodireita"></div>
-            <div class="centro"></div>
+            <div class="topodireita">TopoDir</div>
+            <div class="baixoesquerda">BaixoEsq</div>
+            <div class="baixodireita">BaixoDir</div>
+            <div class="centro">Centro</div>
         </div>
 
     </div>
