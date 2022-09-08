@@ -8,7 +8,7 @@ html{
 }
 
 header{
-    background-color: rgba(22, 10, 6, 0.3);
+    background-color: #B22222;
     padding: 2%;
     font-family: 'Gloria Hallelujah', cursive;  
     display: flex;
@@ -20,6 +20,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 1000;
+    top: 0;
 }
 
 
@@ -73,14 +74,9 @@ h1{
     z-index: -1000;
 }
 
-.logo{
-    text-align: center;
-}
 
-.img_logo{
 
-    width: 20%;
-}
+
 
 figure{
     text-align: center;
@@ -281,7 +277,23 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
     .col-25, .col-75, input[type=submit] {
         width: 100%;
         margin-top: 0;
-      }    
+      }   
+      
+      .logo{
+        text-align: center;
+        
+    }
+
+    .img_logo{
+        width: 20%;
+    }
+
+
+    .banner{
+        margin-top: 40%;
+    }
+
+
   }
 
    /* Altera configuração quando a tela for maior que 601 px*/
@@ -290,19 +302,31 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
     header{
         background-color: #B22222;
         flex-direction: row;
+        padding: 3%;
 
     }    
 
     .itens_menu{
         position: absolute;
-        right: 6%;
-        top: 45%;
+        right: 6%;      
         width: 70%;
     }
 
     .itens_menu ul li{
         display: inline;
         margin-left: 1%;
+    }
+    .img_logo{
+        width: 30%;
+    }
+
+    .logo{
+        width: 30%;
+        text-align: left;
+    }
+
+    .banner{
+        margin-top: 10%;
     }
 
   }
