@@ -9,21 +9,18 @@ html{
 }
 
 header{
+    background-color: rgba(22, 10, 6, 0.3);
+    padding: 2%;
+    font-family: 'Gloria Hallelujah', cursive;  
+}
+
+.fixo{
     position: fixed;
     width: 100%;
     z-index: 1000;
-   
-    
 }
 
-.menu{
-    background-color: rgba(22, 10, 6, 0.3);
-    padding: 2%;
-    font-family: 'Gloria Hallelujah', cursive;
-    position: relative;
-    
-    
-}
+
 .itens_menu{
     text-align: center;
 }
