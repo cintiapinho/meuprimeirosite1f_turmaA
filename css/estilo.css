@@ -293,6 +293,10 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
         margin-top: 40%;
     }
 
+    .descer{
+        margin-top: 50%;
+    }
+
 
   }
 
@@ -303,12 +307,11 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
         background-color: #B22222;
         flex-direction: row;
         padding: 3%;
-
     }    
 
     .itens_menu{
         position: absolute;
-        right: 6%;      
+        right: 2%;      
         width: 70%;
     }
 
@@ -326,6 +329,10 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
     }
 
     .banner{
+        margin-top: 10%;
+    }
+
+    .descer{
         margin-top: 10%;
     }
 
